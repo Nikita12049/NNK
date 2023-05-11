@@ -54,7 +54,7 @@ text = QLabel("Привет! Меня зовут Не Нажимай Кнопк�
 line.addWidget(text, alignment=Qt.AlignCenter)
 
 random_btn = QPushButton("кнопка")
-random_btn.setStyleSheet('''width:10px;height:100px;background:grey;''')
+random_btn.setStyleSheet('''width:10px;height:110px;background:grey;''')
 random_btn.clicked.connect(test)
 line.addWidget(random_btn)
 
